@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "simplelightbox": "^2.14.3"
+  },
+  "name": "goit-js-hw-07",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel 01-gallery.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
