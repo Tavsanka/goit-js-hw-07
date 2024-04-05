@@ -1,10 +1,8 @@
-import SimpleLightbox from "simplelightbox";
 import { galleryItems } from "./gallery-items.js";
-import "simplelightbox/dist/simple-lightbox.css";
 // Change code below this line
 const gallery = document.querySelector("ul.gallery");
 for (const item of galleryItems) {
-  const html = `<li class="gallery__item">
+  const html = `<ul class="gallery__item">
     <a class="gallery__link" href="${item.original}">
       <img
         class="gallery__image"
@@ -13,7 +11,7 @@ for (const item of galleryItems) {
         alt="${item.description}"
       />
     </a>
-  </li>`;
+  </ul>`;
   gallery.insertAdjacentHTML("beforeend", html);
 }
 
